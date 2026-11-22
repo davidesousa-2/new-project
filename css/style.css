@@ -1,0 +1,192 @@
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+
+
+}
+body {
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2 {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    display: block;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.aliens {
+  display: flex;
+  justify-content: center; /* Centraliza os botões na tela */
+  gap: 15px; /* Cria um espaço entre cada botão */
+  flex-wrap: wrap; /* Quebra a linha se a tela for pequena */
+  margin-top: 20px;
+}
+.botao  {
+    background-color: rgb(0, 0, 0);
+  color: red;
+  text-decoration: none; /* Remove o sublinhado azul do link */
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.botao:hover {
+  background-color: #6cc417; /* Verde estilo Ben 10 ao passar o mouse */
+  color: black;
+  transform: scale(1.05);
+}
+.chama h3 {
+    color: aliceblue;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.chama img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    width: 300px
+}
+.botao-voltar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: aliceblue;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #6cc417;
+  transition: 0.3s;
+  z-index: 1000; 
+}
+
+.botao-voltar:hover {
+  background-color: #6cc417;
+  color: black;
+  transform: scale(1.05);
+}
+.dima h4 {
+    color: aliceblue;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.dima h3 {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    display: block;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.dima img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    width: 300px
+}
+.alienx h4 {
+    color: aliceblue;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.alienx h3 {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    display: block;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.alienx img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    width: 300px
+} 
+.quatro h4 {
+    color: aliceblue;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.quatro h3 {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    display: block;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.quatro img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    width: 300px
+}
+.xlr8 h4 {
+    color: aliceblue;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.xlr8 h3 {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    display: block;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.xlr8 img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    width: 300px
+}
+.chama h1 {
+    color: rgba(255, 0, 0, 0.9);
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(10, 7, 7, 0.9);
+    padding: 15px;
+    display: block;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
